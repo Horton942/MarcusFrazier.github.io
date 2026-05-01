@@ -26,17 +26,34 @@
 </div>
 
 <body>
-    <h1>Robotics Engineering Objective 6</h1>
-    <p>
-        <!--program objectives for robotics-->
-        Implement artificial intelligence and data systems into robotic platforms.<br><br>
+  <h1>Robotics Engineering Objective 6</h1>
+  <p>
+      <!--program objectives for robotics-->
+      Implement artificial intelligence and data systems into robotic platforms.<br><br>
 
-    </p>
-    <h2>Assignment 1: </h2>
+  </p>
+  
+  <div>
+    <h2>Assignment 1: Scoot Alert </h2>
     <p>
-        
+        For my Student Innovation Project, I came up with an automatic horn system designed to go on scooters or bikes. The project utilizes a RaspberryPi 5 with an AI hat +2 26Topps, a RaspberryPi AI camera module, a HC-SR04 Ultrasonic sensor, and a servo motor. how it works is when an object, in this case a car, is detected by the AI camera and is within 4 feet of the user, the servo motor will activate to push the trigger on the mounter airhorn alerting the driver of the scooter or bike rider's presence. to account for AI errors in detection, the camera must be 90% confidence that it is a car for 5 consecutive frames and to stop must not have detection for 5 as well for the motor to return to position 0.<br>
+        <b>Video:</b> <a href="https://youtu.be/rUvZCDppfvk?si=qdi-_w5LrKUlW0PS">Video</a><br>
+        <b>Github Code:</b> <a href="https://github.com/Horton942/Student-Innovation-project/blob/main/Raspberrypi_SIP_code.py">Code</a><br>
+        <b>Schemetic</b><br> <img src="SIP diagram.png" style="width:550px;height:370px;"></a>
     </p>
-    <h2>Assignment 2:</h2>
+  </div>
+
+  <div>
+    <h2>Assignment 2: Servo Control</h2>
     <p>
+      In this assignment, we utilized our arduino unos to control the movements of a servo motor. utilizing the <br>
+      L293D motor driver chips externally, we coded our motors to go through a full 180 degree motion forward and back.<br>
+      After that, We added code to make them jump to start mid and end point or 0 degrees, 90 degrees and 180 degrees. The system then <br>
+      loops to do it all over again until I disconect from power.  <br>
+      <b>Video:</b> <a href="https://youtube.com/shorts/Bdfkmxpsd78?si=lvS_wRA87FU1LeGmq">Video</a><br>
+      <b>Github Code:</b> <a href="https://github.com/Horton942/RBT-211-Embedded-programing/blob/main/servo%20control/main.c">Code</a><br>
+      <b>Schemetic:</b> <br> <img src="Servo Control.png" style="width:550px;height:370px;">
+    </p>
+  </div>
 </body>
 </html>

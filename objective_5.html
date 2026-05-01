@@ -26,17 +26,37 @@
 </div>
 
 <body>
-    <h1>Robotics Engineering Objective 5</h1>
-    <p>
-        <!--program objectives for robotics-->
-        Model, analyze, and design systems or processes that integrate hardware and software to control autonomous mechanical systems.<br><br>
+  <h1>Robotics Engineering Objective 5</h1>
+  <p>
+    <!--program objectives for robotics-->
+    Model, analyze, and design systems or processes that integrate hardware and software to control autonomous mechanical systems.<br><br>
 
-    </p>
-    <h2>Assignment 1: </h2>
+  </p>
+
+  <div>
+    <h2>Assignment 1: Servo Control </h2>
     <p>
-        
+      In this assignment, we utilized our arduino unos to control the movements of a servo motor. utilizing the <br>
+      L293D motor driver chips externally, we coded our motors to go through a full 180 degree motion forward and back.<br>
+      After that, We added code to make them jump to start mid and end point or 0 degrees, 90 degrees and 180 degrees. The system then <br>
+      loops to do it all over again until I disconect from power.  <br>
+      <b>Video:</b> <a href="https://youtube.com/shorts/Bdfkmxpsd78?si=lvS_wRA87FU1LeGmq">Video</a><br>
+      <b>Github Code:</b> <a href="https://github.com/Horton942/RBT-211-Embedded-programing/blob/main/servo%20control/main.c">Code</a><br>
+      <b>Schemetic:</b> <br> <img src="Servo Control.png" style="width:550px;height:370px;">
     </p>
-    <h2>Assignment 2:</h2>
+  </div>
+
+  <div>
+    <h2>Assignment 2: DC Motor Movement</h2>
     <p>
+      In this assignment, we simulated moving a DC motor. Here in Part B of the assignment, we were tasked with coding the motor on the Arduino to <br>
+      move with an ultrasonic sensor. It is coded so that the motor spins at full speed or 255 bits at the sensors max distance. At the <br>
+      closest distance the motor would spin at it's lowest speed. In the code I set it so that anything below 5 centimeters, the motor stops <br>
+      completely.   <br>
+      <b>Video:</b> <a href="https://www.youtube.com/watch?v=FBXc60VqHZk">Video</a><br>
+      <b>Github Code:</b> <a href="https://github.com/Horton942/mechanisms-Materials/blob/main/DC%20motors%20Ultrasonic.cpp">Code</a><br>
+      <b>Schemetic:</b> <br> <img src="DC motor movement.png" style="width:550px;height:370px;">
+    </p>
+  </div>
 </body>
 </html>

@@ -3,9 +3,7 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="style.css">
-
 </head>
-<body style="background-color:white;">
 
 <div class="navbar">
   <a href="index.html">Home</a>
@@ -32,18 +30,32 @@
       Demonstrate embedded microprocessor system and circuit skills.<br><br>
 
   </p>
-  <h2>Assignment 1: Motor Speed Controller</h2>
+
+  <div>
+    <h2>Assignment 1: Motor Speed Controller</h2>
     <p>
-        For this assignment, We codded ourarduinos to run a motor at certain intervals at different speeds Through PWM (Pulse Width Modulation). <br>
-        It will run the motor at 50% power, then 75%, then 25% which will make it stop because there is not enough power being supplied to the motor, <br>
-        and finally 100% power and will continue looping until i stop it. 
+      For this assignment, We coded our arduinos to run a motor at certain intervals at different speeds Through PWM (Pulse Width Modulation). <br>
+      It will run the motor at 50% power, then 75%, then 25% which will make it stop because there is not enough power being supplied to the motor, <br>
+      and finally 100% power and will continue looping until I stop it. In the code, the speeds are mesured in bits from 0-255. 128 bits for 50%, 191 bits for 75%, <br>
+      64 bits for 25%, and 255 for 100% power. <br>
+      <b>Video:</b> <a href="https://youtu.be/aS5aoBv0iNg?si=BluFnIdDR1ghwAXD">Video</a><br>
+      <b>Github Code:</b> <a href="https://github.com/Horton942/RBT-211-Embedded-programing/blob/main/motor%20speed%20controller/main.c">Code</a><br>
+      <b>Schemetic:</b> <br> <img src="Motor speed Controller.png" style="width:550px;height:370px;">
     </p>
-  <h2>Assignment 2: Bit Visualizer </h2>
+  </div>
+
+  <div>
+    <h2>Assignment 2: Bit Visualizer </h2>
     <p>
       In this asignment, we coded our arduinos to control a set of 8 LEDs connect together to work with a potentiometer and then again <br>
       with a Photoresister. with the potentiometer, the more turned up the more LEDs light up and with the Photoresister, the more light the <br>
-      the higher the resistance, and the less LEDs light up. 
+      the higher the resistance, and the less LEDs light up. Everything was controlled on our Arduino uno 3s. We coded the onboard <br>
+      L293D chips to control all 8 LEDs.  <br>
+      <b>Video:</b> <a href="https://youtube.com/shorts/975bjRsy4mo?si=3IxLz3qEQZjgth3g">Video</a><br>
+      <b>Github Code:</b> <a href="https://github.com/Horton942/RBT-211-Embedded-programing/blob/main/BitVisualiser/main.c">Code</a><br>
+      <b>Schemetic:</b> <br> <img src="Bit Visualiser.png" style="width:550px;height:370px;">
     </p>
+  </div>
 
 </body>
 </html>
